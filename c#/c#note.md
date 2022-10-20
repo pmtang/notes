@@ -12,6 +12,8 @@
 #### 4. const vs readonly
 [stackoverflow link](https://stackoverflow.com/questions/55984/what-is-the-difference-between-const-and-readonly-in-c)
 
+#### 5. async
+
 ### Operators
 for better understanding  
 a?b:c   means if a == true then b, else c  
