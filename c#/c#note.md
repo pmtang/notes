@@ -18,6 +18,16 @@ a?b:c   means if a == true then b, else c
 a??b    means if a == null then b, else a  
 a??=b   means if a == null then a=b, else a=a
 
+### delegates
+    C#1.0 delegate:
+    delegate returnType Function(params);
+
+    C#2.0 anonymous functions:
+    delegate (params) {method body}
+
+    C#3.0 lambda expression:
+    (params) => method body
+    p.s. () Is mandatory when you need to mass more than one parameter
 
 ### Ordering rules by StyleCopAnalyzers
 #### SA1201
