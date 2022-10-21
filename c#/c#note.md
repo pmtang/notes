@@ -58,3 +58,8 @@ Indexers
 Methods  
 Structs  
 Classes*  
+
+### Default usage
+#### Convert.ToString() vs .ToString()
+Calling .ToString() presumes that the object is not null.  
+Convert.ToString() can also handles null and will return **String.Empty**
