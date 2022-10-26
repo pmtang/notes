@@ -63,3 +63,18 @@ Classes*
 #### Convert.ToString() vs .ToString()
 Calling .ToString() presumes that the object is not null.  
 Convert.ToString() can also handles null and will return **String.Empty**
+
+# Data structures
+## Array
+1.create
+    
+    int[] array = new int[4];
+    int[] array = new int[4] {1,2,3,4};
+    int[] array = new int[] {1,2,3,4};
+    int[] array = new [] {1,2,3,4};
+
+
+2.Access
+
+    lastElement = array[^1];                // indexing from the end
+    int[] firstThreeElements = array[0..3]; // range
