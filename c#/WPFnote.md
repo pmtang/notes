@@ -1,2 +1,2 @@
 Setting Datacontext
-[stackoverflow link](https://stackoverflow.com/questions/55984/what-is-the-difference-between-const-and-readonly-in-c)
+[stackoverflow link](https://stackoverflow.com/questions/69203973/whats-the-difference-in-this-example-between-using-datacontext-in-xaml-code-b)
