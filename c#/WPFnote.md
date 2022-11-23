@@ -49,3 +49,18 @@
 
 [MSDN link](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/data/?view=netdesktop-6.0)  
 [stackoverflow link](https://stackoverflow.com/questions/7525185/how-to-set-a-binding-in-code)
+
+### 3. Add button to grid
+    Button button = new Button();
+    button.Name = "Btn" + row + col;
+    Grid.SetRow(button, row);
+    Grid.SetColumn(button, col);
+    grid.Children.Add(button);
+
+### 4. Handle event
+[stackoverflow link](https://stackoverflow.com/questions/37214401/why-mousedown-event-handler-is-not-getting-hit)
+
+    button.PreviewMouseDown += OnBtnClick;
+    button.MouseDown += OnBtnClick;
+    // the PreviewXXX version is 'tunnel' event and is raised on higher level
+    // vs. the XXX version is 'bubble' event and start bubble up and is easily get caughy and handled
