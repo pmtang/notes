@@ -2,6 +2,8 @@
 [stackoverflow link](https://stackoverflow.com/questions/69203973/whats-the-difference-in-this-example-between-using-datacontext-in-xaml-code-b)
 
 ### 2. Binding
+**important:** You can only bind to **properties**, not fields.
+
 (In MVVM) Following is a demo of Binding combining C# and xaml:  
 
     // ViewModel
