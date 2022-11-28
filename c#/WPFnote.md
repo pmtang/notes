@@ -52,6 +52,9 @@
 [MSDN link](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/data/?view=netdesktop-6.0)  
 [stackoverflow link](https://stackoverflow.com/questions/7525185/how-to-set-a-binding-in-code)
 
+**Binding images to buttons with Resource**:  
+[stackoverflow link](https://stackoverflow.com/questions/21788855/binding-an-image-in-wpf-mvvm)
+
 ### 3. Add button to grid
     Button button = new Button();
     button.Name = "Btn" + row + col;
