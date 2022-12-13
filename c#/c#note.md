@@ -1,5 +1,12 @@
-#### Call by Value / Reference
-[relative link](./code/CallByValueOrReference.cs)
+### Call by Value / Reference
+[relative link](./code/CallByValueOrReference.cs)  
+
+Properties cannot be passed by reference. Here are a few ways you can work around this limitation.  
+1. Return value
+2. Delegate
+3. LINQ expression
+4. Reflection  
+[stackoverflow](https://stackoverflow.com/questions/1402803/passing-properties-by-reference-in-c-sharp)
 
 ### Modifiers
 #### 1. Accessibility
