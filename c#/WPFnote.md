@@ -69,7 +69,3 @@
     button.MouseDown += OnBtnClick;
     // the PreviewXXX version is 'tunnel' event and is raised on higher level
     // vs. the XXX version is 'bubble' event and start bubble up and is easily get caughy and handled
-
-### 5. Publish
-To publish in a single file:  
-dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true
