@@ -85,3 +85,24 @@ Convert.ToString() can also handles null and will return **String.Empty**
 
     lastElement = array[^1];                // indexing from the end
     int[] firstThreeElements = array[0..3]; // range
+
+# In coding
+### async can not use with constructor since a constructor do not return Task. In order to use async functions in a constructor, we can use a asynchronous factory method.
+
+    public class MyClass
+    {
+        private MyClass()
+        {
+            // perform synchronous initialization here
+        }
+
+        public static async Task<MyClass> CreateAsync()
+        {
+            var instance = new MyClass();
+
+            // perform asynchronous initialization here
+            await SomeAsyncInitializationTask();
+
+            return instance;
+        }
+    }
